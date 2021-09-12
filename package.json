@@ -90,10 +90,7 @@
       "**/*.(t|j)s"
     ],
     "coverageDirectory": "../coverage",
-    "testEnvironment": "node",
-    "engines": {
-      "node": "14.x"
-    }
+    "testEnvironment": "node"
   },
   "engines": {
     "node": "14.x"
