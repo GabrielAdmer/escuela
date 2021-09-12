@@ -4,8 +4,6 @@ import { Request } from 'express';
 import { Usuario } from '../../usuarios/entities/usuario.entity';
 import { AuthService } from '../services/auth.service';
 import { JwtAuthGuard } from '../guards/jwt-auth.guard';
-import { PayloadToken } from '../models/model';
-import { IsPublic } from '../decorators/ispublic.decorator';
 import { getMenuFrontend } from '../../helpers/menu-frontend';
 
 @Controller( 'auth' )

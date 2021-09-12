@@ -1,6 +1,5 @@
-import { PrimaryGeneratedColumn, Column, Entity, OneToOne, OneToMany } from 'typeorm';
-import { Usuario } from './usuario.entity';
-import { Solicitud } from '../../tramites/entities/solicitud.entity';
+import { PrimaryGeneratedColumn, Column, Entity } from 'typeorm';
+
 
 @Entity( 'padres' )
 export class Padre {

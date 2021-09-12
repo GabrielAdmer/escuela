@@ -1,6 +1,5 @@
 import { PartialType } from '@nestjs/swagger';
-import { IsArray, IsEmail, IsNotEmpty, IsNumber, IsString } from 'class-validator';
-import { Grado_Seccion } from '../../../dist/usuarios/models/interfaces';
+import { IsEmail, IsNotEmpty, IsNumber, IsString } from 'class-validator';
 
 export class CreateProfesorDto {
 

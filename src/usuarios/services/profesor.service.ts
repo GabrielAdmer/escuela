@@ -3,7 +3,6 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Profesor } from '../entities/profesor.entity';
 import { CreateProfesorDto, UpdateProfesorDto } from '../dtos/profesor.dto';
-import { UpdatePadreDto } from '../dtos/padre.dto';
 
 @Injectable()
 export class ProfesorService {

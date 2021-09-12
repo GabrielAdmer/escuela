@@ -1,5 +1,4 @@
 import { Body, Controller, Delete, Get, Param, ParseIntPipe, Post, Put } from '@nestjs/common';
-// import { Post as PostEntity } from '../entity/post.entity';
 import { PostService } from '../service/post.service';
 import { CreatePostDto, UpdatePostDto } from '../dtos/post .dto';
 

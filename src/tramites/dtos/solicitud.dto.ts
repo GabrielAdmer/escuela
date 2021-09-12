@@ -1,6 +1,5 @@
 import { PartialType } from '@nestjs/swagger';
-import { IsBoolean, IsDataURI, IsDate, IsDateString, IsEmail, IsEnum, IsNotEmpty, IsNumber, IsOptional, IsPositive, IsString, Min, ValidateIf } from 'class-validator';
-import { TramiteEstado, TramiteNombre } from '../entities/solicitud.entity';
+import { IsBoolean, IsEmail, IsNotEmpty, IsNumber, IsOptional, IsPositive, IsString, Min } from 'class-validator';
 
 export class CreateSolicitudDto {
 

@@ -5,7 +5,6 @@ import { Usuario } from '../entities/usuario.entity';
 import { CreateUsuarioDto, UpdateUsuarioDto } from '../dtos/usuario.dto';
 import { Profesor } from '../entities/profesor.entity';
 
-import * as bcrypt from 'bcrypt';
 
 
 @Injectable()

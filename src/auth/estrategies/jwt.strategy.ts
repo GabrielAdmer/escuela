@@ -4,7 +4,6 @@ import { PassportStrategy } from '@nestjs/passport';
 import { Strategy, ExtractJwt } from 'passport-jwt';
 import config from 'src/config';
 import { PayloadToken } from '../models/model';
-import { Usuario } from '../../usuarios/entities/usuario.entity';
 import { UsuarioService } from '../../usuarios/services/usuario.service';
 
 @Injectable()

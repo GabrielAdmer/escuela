@@ -1,5 +1,4 @@
 import { Column, Entity, OneToMany, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
-import { Grado, Grado_Seccion, Seccion } from '../models/models';
 import { Usuario } from './usuario.entity';
 import { Asistencia } from '../../asistencias/entities/asistencia.entity';
 
