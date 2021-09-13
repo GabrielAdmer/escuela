@@ -1,4 +1,3 @@
-import * as bcryp from 'bcrypt';
 import { Usuario } from 'src/usuarios/entities/usuario.entity';
 import { getRepository } from 'typeorm';
 

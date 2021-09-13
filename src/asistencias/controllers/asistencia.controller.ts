@@ -5,7 +5,6 @@ import { JwtAuthGuard } from '../../auth/guards/jwt-auth.guard';
 import { RolesGuard } from '../../auth/guards/rol.guard';
 import { Roles } from 'src/auth/decorators/rol.decorator';
 import { RolEnum } from 'src/auth/models/rol.model';
-import { IsPublic } from 'src/auth/decorators/ispublic.decorator';
 
 @UseGuards( JwtAuthGuard, RolesGuard )
 @Controller( 'asistencia' )

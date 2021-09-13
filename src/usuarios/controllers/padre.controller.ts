@@ -1,9 +1,7 @@
-import { Body, Controller, Delete, Get, Param, ParseIntPipe, ParseUUIDPipe, Post, Put } from '@nestjs/common';
-import { ApiTags } from '@nestjs/swagger';
+import { Body, Controller, Delete, Get, Param, ParseIntPipe, Post, Put } from '@nestjs/common';
 import { PadreService } from '../services/padre.service';
 import { CreatePadreDto, UpdatePadreDto } from '../dtos/padre.dto';
 
-@ApiTags( 'Padres' )
 @Controller( 'padres' )
 export class PadreController {
 

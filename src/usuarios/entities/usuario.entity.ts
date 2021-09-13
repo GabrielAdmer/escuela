@@ -1,4 +1,4 @@
-import { BeforeInsert, BeforeUpdate, Column, Entity, JoinColumn, JoinTable, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { BeforeInsert, BeforeUpdate, Column, Entity, JoinColumn, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { Profesor } from './profesor.entity';
 
 import * as bcryp from 'bcrypt';
@@ -34,7 +34,6 @@ export class Usuario {
     }
     this.password = await bcryp.hash( this.password, 2 );
   }
-
 
 }
 
