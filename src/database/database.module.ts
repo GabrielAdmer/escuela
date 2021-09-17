@@ -14,7 +14,7 @@ import config from 'src/config';
           url: configService.postgresUrl,
           synchronize: false,
           autoLoadEntities: true,
-          // ssl: { rejectUnauthorized: false }
+          sskl: { rejectUnauthorized: false }
         };
       },
     } )
